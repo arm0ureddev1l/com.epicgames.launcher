@@ -34,6 +34,7 @@ add-extensions:
     autoprune-unless: have-intel-gpu
 
 finish-args:
+  - --allow=devel
   - --allow=multiarch
   - --socket=wayland
   - --socket=x11
